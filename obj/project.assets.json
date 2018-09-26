@@ -13132,11 +13132,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Barreto\\Google Drive\\Cursos Alura\\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\\Font Code\\CasaDoCodigo\\CasaDoCodigo\\CasaDoCodigo.csproj",
+      "projectUniqueName": "C:\\Users\\Barreto\\Google Drive\\Cursos Alura\\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\\Font Code\\CasaDoCodigo\\Git\\Dev\\CasaDoCodigo\\CasaDoCodigo.csproj",
       "projectName": "CasaDoCodigo",
-      "projectPath": "C:\\Users\\Barreto\\Google Drive\\Cursos Alura\\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\\Font Code\\CasaDoCodigo\\CasaDoCodigo\\CasaDoCodigo.csproj",
+      "projectPath": "C:\\Users\\Barreto\\Google Drive\\Cursos Alura\\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\\Font Code\\CasaDoCodigo\\Git\\Dev\\CasaDoCodigo\\CasaDoCodigo.csproj",
       "packagesPath": "C:\\Users\\Barreto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Barreto\\Google Drive\\Cursos Alura\\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\\Font Code\\CasaDoCodigo\\CasaDoCodigo\\obj\\",
+      "outputPath": "C:\\Users\\Barreto\\Google Drive\\Cursos Alura\\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\\Font Code\\CasaDoCodigo\\Git\\Dev\\CasaDoCodigo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
