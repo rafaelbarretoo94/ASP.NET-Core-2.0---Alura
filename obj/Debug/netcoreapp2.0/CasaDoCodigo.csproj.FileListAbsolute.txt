@@ -15,3 +15,5 @@ C:\Users\Barreto\Google Drive\Cursos Alura\ASP.NET Core 2.0 parte 1 Uma webapp u
 C:\Users\Barreto\Google Drive\Cursos Alura\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\Font Code\CasaDoCodigo\Git\Dev\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.AssemblyInfo.cs
 C:\Users\Barreto\Google Drive\Cursos Alura\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\Font Code\CasaDoCodigo\Git\Dev\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.dll
 C:\Users\Barreto\Google Drive\Cursos Alura\ASP.NET Core 2.0 parte 1 Uma webapp usando o padrão MVC\Font Code\CasaDoCodigo\Git\Dev\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.pdb
+C:\Users\rafael.barreto\Desktop\Rafael Projects\ASP.NET-Core-2.0---Alura\obj\Debug\netcoreapp2.0\CasaDoCodigo.dll
+C:\Users\rafael.barreto\Desktop\Rafael Projects\ASP.NET-Core-2.0---Alura\obj\Debug\netcoreapp2.0\CasaDoCodigo.pdb
