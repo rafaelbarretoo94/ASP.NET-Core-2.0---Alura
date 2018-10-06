@@ -54,7 +54,7 @@ namespace CasaDoCodigo
             });
 
             //Força a criação do banco de dados
-            service.GetService<DataService>().InicializarDB();
+            service.GetService<IDataService>().InicializarDB();
         }
     }
 }
