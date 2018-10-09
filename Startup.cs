@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CasaDoCodigo.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -26,7 +27,9 @@ namespace CasaDoCodigo
             services.AddMvc();
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
 
-            services.AddTransient<IDataService,DataService>();
+
+            services.AddTransient<IDataService, DataService>();
+            services.AddTransient<IProdutoRepository, ProdutoRepository>();
 
         }
 
@@ -54,6 +57,7 @@ namespace CasaDoCodigo
             });
 
             //Força a criação do banco de dados
+
             service.GetService<IDataService>().InicializarDB();
         }
     }
