@@ -12,10 +12,10 @@ namespace CasaDoCodigo.Repositories
         private readonly ApplicationContext contexto;
         private readonly IProdutoRepository produtoRepository;
 
-        public ProdutoRepository(ApplicationContext contexto, IProdutoRepository  produtoRepository)
+        public ProdutoRepository(ApplicationContext contexto)
         {
             this.contexto = contexto;
-            this.produtoRepository = produtoRepository;
+            
         }
 
         public IList<Produto> GetProdutos()
