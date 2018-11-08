@@ -28,11 +28,8 @@ namespace CasaDoCodigo
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
 
 
-<<<<<<< HEAD
+
             services.AddTransient<IDataService, DataService>();
-=======
-            services.AddTransient<IDataService,DataService>();
->>>>>>> 948217f97326ed93ba20b7e42616bcff108f6598
             services.AddTransient<IProdutoRepository, ProdutoRepository>();
 
         }
