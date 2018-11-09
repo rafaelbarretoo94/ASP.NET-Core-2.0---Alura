@@ -8,12 +8,9 @@ using static CasaDoCodigo.Startup;
 
 namespace CasaDoCodigo.Repositories
 {
-    public class ProdutoRepository : BaseRepository<Produto>,IProdutoRepository
+    public class ProdutoRepository : IProdutoRepository
     {
-        public ProdutoRepository(ApplicationContext contexto) : base(contexto)
-        {
-        }
-
+    
         public IList<Produto> GetProdutos()
         {
             return dbSet.ToList();
