@@ -8,24 +8,11 @@ using static CasaDoCodigo.Startup;
 
 namespace CasaDoCodigo.Repositories
 {
-    public class ProdutoRepository : IProdutoRepository
+    public class CadastroRepository : BaseRepository<Cadastro>, ICadastroRepository
     {
-    
-        public IList<Produto> GetProdutos()
+        public CadastroRepository(ApplicationContext contexto) : base(contexto)
         {
-            return dbSet.ToList();
-        }      
 
-        public void SaveProdutos(List<Livro> livros)
-        {
-            foreach (var livro in livros)
-            {
-                if (!dbSet.Where(p=> p.Codigo == livro.Codigo).Any())
-                    dbSet.Add(new Produto(livro.Codigo, livro.Nome, livro.Preco));
-            }
-            contexto.SaveChanges();
         }
-
-
     }
 }
