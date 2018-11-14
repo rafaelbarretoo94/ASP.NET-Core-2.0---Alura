@@ -25,6 +25,9 @@ namespace CasaDoCodigo
         {
             var connectionString = Configuration.GetConnectionString("default");
             services.AddMvc();
+            services.AddDistributedMemoryCache();  
+            services.AddSession();
+
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
 
 
@@ -52,6 +55,7 @@ namespace CasaDoCodigo
             }
 
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseMvc(routes =>
             {

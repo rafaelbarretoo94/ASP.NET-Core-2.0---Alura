@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CasaDoCodigo.Repositories
 {
-    public class ItemPedidoRepository : BaseRepository<ItemPedido>
+    public class ItemPedidoRepository : BaseRepository<ItemPedido>,IItemPedidoRepository
     {
         public ItemPedidoRepository(ApplicationContext contexto) : base(contexto)
         {
